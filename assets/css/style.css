@@ -1,7 +1,17 @@
 body{
-    background:url("../images/photos/webBackground.jpg");
+    background:url("../images/photos/bodyBackground.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: .8;
+    filter: alpha(opacity=50);
+}
+#headerBackground {
+    background:url("../images/photos/headerBackground.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
+
