@@ -6,6 +6,7 @@ body{
     background-size: cover;
     opacity: .8;
     filter: alpha(opacity=50);
+    font-family: 'Times New Roman', Times, serif;
 }
 #headerBackground {
     background:url("../images/photos/headerBackground.png");
@@ -15,6 +16,7 @@ body{
     background-size: cover;
 }
 #projectButton, #contactButton, #resumeButton, #toggleButton {
-    background: crimson;
+    background: greenyellow;
+    color: rgb(0, 94, 255);
 }
 
