@@ -14,4 +14,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+#projectButton, #contactButton, #resumeButton, #toggleButton {
+    background: crimson;
+}
 
