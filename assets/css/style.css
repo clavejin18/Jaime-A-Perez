@@ -19,4 +19,5 @@ body{
     background: greenyellow;
     color: rgb(0, 94, 255);
 }
+.text{overflow:auto}
 
