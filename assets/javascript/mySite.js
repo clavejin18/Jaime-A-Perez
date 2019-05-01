@@ -9,6 +9,7 @@ $(".contact").hide()
 document.querySelector("#projectButton").addEventListener("click", function(event){
 // Following prevents website refresh
   event.preventDefault()
+
 // Display function for project button when clicked
   projectDisplay()
 })
