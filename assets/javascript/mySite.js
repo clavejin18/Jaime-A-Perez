@@ -1,6 +1,10 @@
 // Adding onclick function for "Projects" and "contact" website buttons
 /*********** setting up website **********************/
 $( document ).ready(function() {
+//hiding elements
+$(".project").hide()
+$(".contact").hide()
+
 // Registering click for Project button
 document.querySelector("#projectButton").addEventListener("click", function(event){
 // Following prevents website refresh
@@ -18,9 +22,9 @@ document.querySelector("#contactButton").addEventListener("click", function(even
 })
 // Display functions for website
 function projectDisplay() {
-
+  $(".project").show()
 }
 function contactDisplay(){
-
+  $(".contact").show()
 }
 
